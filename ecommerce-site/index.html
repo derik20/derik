@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Site - Boutique en Ligne</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>🛒 E-Shop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <span id="cart-count">0</span>
+                <span>🛒</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenue sur notre boutique</h2>
+            <p>Découvrez nos meilleurs produits à des prix imbattables</p>
+            <a href="#products" class="btn-primary">Voir les produits</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Nos Produits</h2>
+        <div class="product-grid">
+            <div class="product-card" data-id="1">
+                <div class="product-image">💻</div>
+                <h3>Laptop Pro</h3>
+                <p class="price">999.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="2">
+                <div class="product-image">📱</div>
+                <h3>Smartphone X</h3>
+                <p class="price">699.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="3">
+                <div class="product-image">🎧</div>
+                <h3>Casque Audio</h3>
+                <p class="price">149.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="4">
+                <div class="product-image">⌚</div>
+                <h3>Montre Connectée</h3>
+                <p class="price">299.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="5">
+                <div class="product-image">📷</div>
+                <h3>Appareil Photo</h3>
+                <p class="price">549.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="6">
+                <div class="product-image">🖥️</div>
+                <h3>Écran 4K</h3>
+                <p class="price">399.99 €</p>
+                <button class="btn-add-cart">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>À propos de nous</h2>
+        <p>Nous sommes une entreprise dédiée à vous offrir les meilleurs produits technologiques depuis 2020. Notre mission est de rendre la technologie accessible à tous avec un service client exceptionnel.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 E-Shop. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Votre Panier</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <h3>Total: <span id="total-price">0.00</span> €</h3>
+            </div>
+            <button class="btn-primary checkout-btn">Passer la commande</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
