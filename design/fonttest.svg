@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900">
+<rect width="1500" height="900" fill="#F7F4EE"/>
+<text x="40" y="90" font-family="'Bitstream Charter','Charter',serif" font-size="60" font-weight="bold" fill="#1E2420">Vous avez scrollé. Maintenant, on reprend par quoi ?</text>
+<text x="40" y="180" font-family="'URW Palladio L','P052',Palatino,serif" font-size="60" font-style="italic" fill="#1E2420">P052 italic — Reprendre le fil éditorial çàèêû</text>
+<text x="40" y="270" font-family="'Liberation Serif',serif" font-size="60" font-weight="bold" fill="#1E2420">Liberation Serif Bold — çàèêû Œæ</text>
+<text x="40" y="360" font-family="'FreeSerif',serif" font-size="60" font-weight="bold" fill="#1E2420">FreeSerif Bold — çàèêû”“</text>
+<text x="40" y="450" font-family="'DejaVu Serif',serif" font-size="60" font-weight="bold" fill="#1E2420">DejaVu Serif Bold — çàèêû “ ” —</text>
+<text x="40" y="540" font-family="'Nimbus Roman',serif" font-size="60" font-weight="bold" fill="#1E2420">Nimbus Roman — çàèêû</text>
+<text x="40" y="640" font-family="'Liberation Sans',sans-serif" font-size="46" fill="#1E2420">Liberation Sans body : Faites le point en quelques questions, choisissez une priorité.</text>
+<text x="40" y="720" font-family="'DejaVu Sans',sans-serif" font-size="46" fill="#1E2420">DejaVu Sans body : Faites le point en quelques questions, choisissez une priorité.</text>
+<text x="40" y="800" font-family="'P052','URW Palladio L',serif" font-size="46" font-style="italic" fill="#1E2420">P052 small italic : sans engagement — votre réponse reste la vôtre.</text>
+</svg>
